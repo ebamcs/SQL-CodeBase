@@ -18,6 +18,10 @@ Insert into EmployeeErrors Values
 ,('  1002', 'Pamela', 'Beasely')
 ,('1005', 'TOby', 'Flenderson - Fired')
 
+-- Using SELECT which isn't case sensitive, then with an * which means for all values existing in a table
+-- TOP 5 * will display the top 5 rows
+-- DISTINCT(Column_Name) will display the unique values in a specific column
+-- COUNT(Column_Name) will display all the non-null values in a column
 Select *
 From EmployeeErrors
 
