@@ -1,6 +1,8 @@
 /*
-Union allows for one to select all data from both tables and put it into one output where all the data
-is in each column and not separated out and you don't have to choose which table you're choosing it from.
+Union allows one to select all data from both tables and put it into one output where all the data
+is in each column and not separated, and you don't have to choose which table you're focusing on (left or right).
+UNION removes duplicates, while UNION ALL displays all info regardless of a duplicate or not, and this 
+is easier if both tables are the same (column names and data types).
 */
 
 Table 1 Insert:
