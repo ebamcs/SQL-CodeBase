@@ -1,3 +1,8 @@
+/*
+Union allows for one to select all data from both tables and put it into one output where all the data
+is in each column and not separated out and you don't have to choose which table you're choosing it from.
+*/
+
 Table 1 Insert:
 Insert into EmployeeDemographics VALUES
 (1011, 'Ryan', 'Howard', 26, 'Male'),
